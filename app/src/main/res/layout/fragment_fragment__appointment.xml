@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.rifat.hellodoctor.Fragment_Appointment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/hourIdd"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+
+            android:hint="Select Time"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+        <Spinner
+            android:id="@+id/spinnerIDD"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            ></Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submissionAppointment"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:text="SubMit"/>
+
+</LinearLayout>

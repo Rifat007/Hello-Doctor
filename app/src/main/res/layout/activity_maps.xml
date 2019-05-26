@@ -1,0 +1,56 @@
+<RelativeLayout
+
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        tools:context="com.example.rifat.hellodoctor.MapsActivity"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/B_restaurant" />
+
+    <EditText
+        android:id="@+id/TF_Location"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/B_restaurant"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TF_SEARCH"
+        android:text="search"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"></RelativeLayout>
+
+    <Button
+        android:id="@+id/B_restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/TF_SEARCH"
+        android:onClick="onClick"
+        android:text="Show Hospital" />
+
+    <Button
+        android:id="@+id/showlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show List"
+        android:onClick="onClick"
+        android:layout_marginStart="11dp"
+        android:layout_below="@+id/TF_Location"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

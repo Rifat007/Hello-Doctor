@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/doc14"
+    tools:context="com.example.rifat.hellodoctor.Doctor_Home">
+
+    <Button
+        android:id="@+id/view_pat222"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/colorPrimary"
+        android:text="View patient"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/namage_schedule"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/colorPrimary"
+        android:text="Manage Schedule"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/blog"
+        android:background="@color/colorPrimary"
+        android:text="Blog"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"/>
+
+</LinearLayout>

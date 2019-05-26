@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rifat.hellodoctor.Pat_multiple_search">
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/place_select_123"
+        android:hint="Select Place"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="2dp"
+            android:hint="Select Catagory"
+            android:id="@+id/select_catagory_123"/>
+
+        <Spinner
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/select_spinner_123">
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="2dp"
+            android:hint="Select date"
+            android:id="@+id/select_date_123"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="Date"
+            android:background="#000080"
+            android:textColor="#ffffff"
+            android:id="@+id/select_datebutton_123">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="#000080"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#ffffff"
+        android:text="Search"
+        android:id="@+id/select_submit_123"/>
+
+
+
+
+</LinearLayout>

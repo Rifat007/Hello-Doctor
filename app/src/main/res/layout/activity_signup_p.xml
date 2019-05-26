@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rifat.hellodoctor.signupP">
+
+    <LinearLayout
+        android:id="@+id/signupP_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/usernameSP"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="User Name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/useridSP"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="User Id"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/locationSP"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Location"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/phnSP"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Phone No."
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:singleLine="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/genderSP"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:hint="Gender"
+            android:layout_marginLeft="10dp"
+
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+            <Spinner
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/patient_gender_spinner"
+                android:layout_marginLeft="25dp"
+                ></Spinner>
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/passSP"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/conpassSP"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Confirm Password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/sign_up_Sp"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"/>
+    </LinearLayout>
+
+</ScrollView>

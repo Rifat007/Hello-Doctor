@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">IDoctor</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="gender_names">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Times">
+        <item>3:00 PM</item>
+        <item>3:20 PM</item>
+        <item>3:40 PM</item>
+        <item>4:00 PM</item>
+        <item>4:20 PM</item>
+        <item>5:00 PM</item>
+        <item>5:20 PM</item>
+        <item>5:40 PM</item>
+        <item>6:00 PM</item>
+    </string-array>
+
+    <string-array name="Catagories">
+        <item>Allergist</item>
+        <item>Cardiologist</item>
+        <item>Medicine</item>
+        <item>Gynecologist</item>
+        <item>Neurologist</item>
+        <item>Urologist</item>
+        <item>Dentist</item>
+    </string-array>
+    <string name="title_activity_navi">Navi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

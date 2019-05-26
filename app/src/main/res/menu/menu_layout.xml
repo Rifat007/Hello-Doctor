@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profId"
+        android:title="Change Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settId"
+        android:title="Settings"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_share"
+        />
+    <item
+        android:id="@+id/lgoutId"
+        android:title="Log Out"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/homeeId"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/homee"
+        />
+</menu>

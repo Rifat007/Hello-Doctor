@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rifat.hellodoctor.Fragment_Doctor_Profile">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/manicon"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000080"
+        android:id="@+id/Docproname"
+        android:layout_marginLeft="120dp"
+        android:text="Dr. Ahsanul Haque"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/docspecialist"
+        android:text="Cardiologist"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:text="MBBS, DMC , Dhaka"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:text="FCPS, Germany"
+        android:textColor="#000000"/>
+    <RatingBar
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:numStars="5"
+        android:rating="1."
+        android:stepSize="0.5"
+        android:scaleX="0.7"
+        android:id="@+id/docratingpane"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/Docratingid"
+        android:text="rating"
+        android:textColor="#000000"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#ffffff"
+        android:text="Give Rating"
+        android:textSize="10dp"
+        android:background="#000080"
+        android:id="@+id/docgiveRating"/>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Room No."
+        android:textSize="15dp"
+        android:textColor="#000080"
+        android:id="@+id/doctorroomno"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+
+        android:layout_marginLeft="100dp"
+        android:text="Contact No."
+        android:textSize="15dp"
+        android:textColor="#000080"
+        android:id="@+id/doctorphnNo"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="130dp"
+        android:text="Fare "
+        android:textSize="15dp"
+        android:textColor="#000080"
+        android:id="@+id/doctorfare"/>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rifat.hellodoctor.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/view_doc_list"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginTop="60dp"
+        android:icon="@drawable/manicon"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"></ListView>
+
+</LinearLayout>

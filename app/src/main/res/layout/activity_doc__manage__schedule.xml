@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rifat.hellodoctor.Doc_Manage_Schedule">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:hint="Select Hospital"
+            android:id="@+id/hosSelect321"
+            android:paddingLeft="10dp" />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:hint="Room No"
+            android:id="@+id/room321"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:hint="XX/XX/XXXX"
+            android:id="@+id/DateDoc321"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:background="#000080"
+            android:textColor="#ffffff"
+            android:text="Date"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/selectDateDoc321"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:hint="XX:XX"
+            android:id="@+id/hourSelectDoc321"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:background="#000080"
+            android:textColor="#ffffff"
+            android:text="Time"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/selectHourDoc321"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:text="Add Schedule"
+        android:id="@+id/addScheduleDoc321"/>
+
+</LinearLayout>
